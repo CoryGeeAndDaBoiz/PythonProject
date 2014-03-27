@@ -1,7 +1,7 @@
 import wx
 
 # Search for a new company by the stock symbol
-class newCompanyFrame(wx.Frame):
+class NewCompanyFrame(wx.Frame):
     
     def __init__(self,parent,id):
         wx.Frame.__init__(self,parent,id,'Company Search',size=(1000,550))

@@ -4,7 +4,7 @@ import MainFrame as mf
 import wx    
 
 # Login view
-class startFrame(wx.Frame):
+class StartFrame(wx.Frame):
 
     def __init__ (self,parent,id):
         wx.Frame.__init__(self,parent,id,'Your Stock Portfolio',size=(1000,550))
@@ -37,6 +37,6 @@ class startFrame(wx.Frame):
 
 if __name__ == '__main__':
     app = wx.App(False)
-    sFrame = startFrame(parent=None, id=-1)
+    sFrame = StartFrame(parent=None, id=-1)
     sFrame.Show()
     app.MainLoop()

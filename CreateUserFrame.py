@@ -3,7 +3,7 @@ import wx
 ID_EXIT_CREATE_USR = wx.NewId()
 
 # Create a new user view
-class createUsrFrame(wx.Frame):
+class CreateUsrFrame(wx.Frame):
     
     def __init__(self,parent,id):        
         wx.Frame.__init__(self,parent,id,'New User Info',size=(1000,550))

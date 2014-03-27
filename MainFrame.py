@@ -1,5 +1,6 @@
 import wx
 import NewCompanyFrame as ncf
+import MyPortfolioFrame as mpf
 
 ID_FILE_NEW_COMP = wx.NewId()
 ID_FILE_OPEN = wx.NewId()
