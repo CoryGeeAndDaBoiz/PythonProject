@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_yNDQpZ
 import wx
 import wx.lib.scrolledpanel as sp
 
@@ -155,6 +156,12 @@ class createUsrFrame(wx.Frame):
     def closewindow(self, event):
         self.Destroy()
     
+=======
+import MyPortfolioFrame as mpf
+import CreateUserFrame as cuf
+import MainFrame as mf
+import wx    
+>>>>>>> .merge_file_2TmOrO
 
 # Login view
 class startFrame(wx.Frame):
@@ -177,12 +184,20 @@ class startFrame(wx.Frame):
 
     def loginBtnPressed(self, event):
         # TODO: add the login password confirmation logic here...
+<<<<<<< .merge_file_yNDQpZ
         mFrame = mainFrame(parent=None, id=-1)
+=======
+        mFrame = mf.mainFrame(parent=None, id=-1)
+>>>>>>> .merge_file_2TmOrO
         mFrame.Show()
         self.Destroy()
 
     def createUsrBtnPressed(self, event):
+<<<<<<< .merge_file_yNDQpZ
         cFrame = createUsrFrame(parent=None, id=-1)
+=======
+        cFrame = cuf.createUsrFrame(parent=None, id=-1)
+>>>>>>> .merge_file_2TmOrO
         cFrame.Show()
         self.Destroy()
 
